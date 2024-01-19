@@ -14,3 +14,10 @@ library(tidyverse)
 Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
 # Analysis
+
+```{r}
+df <- gapminder::gapminder_unfiltered
+
+head(df)
+```
+
